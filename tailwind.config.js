@@ -18,7 +18,7 @@ module.exports = {
     logs: true,
     rtl: false,
     themes: [
-      'black', // first one will be the default theme
+      'cyberpunk', // first one will be the default theme
     ],
   },
 }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://rsms.me/inter/inter.css');
 
 .container {
   /* min-height: 100vh; */
@@ -9,13 +10,13 @@
   /* height: 100vh; */
 }
 
-.main {
+/* .main {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .footer {
   width: 100%;
@@ -35,6 +36,7 @@
 
 .header {
   font-family: 'Staatliches', cursive;
+  height: 100%;
 }
 
 /* .title a {
@@ -49,7 +51,7 @@
 } */
 
 .bgWrap {
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: -1;
 }
 
@@ -58,7 +60,7 @@
   z-index: 2;
   background-color: black;
   width: 45vw;
-  height: 40vh;
+  height: 350px;
   margin-top: 55%;
 }
 
@@ -81,8 +83,31 @@
 }
 
 .about {
-  line-height: 1.5;
-  font-size: 1rem;
+  /* line-height: 1.5;
+  font-size: 1rem; */
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding-top: 300px;
+  text-align: center;
+}
+
+.aboutHeading {
+  font-family: 'Staatliches', cursive;
+  font-size: 5rem;
+  letter-spacing: 2px;
+}
+
+.me {
+  border-radius: 50%;
+}
+
+.sectionLook {
+  padding: 140px;
+  border: 2px white solid;
+  margin: 100px;
+  
 }
 
 .grid {
@@ -127,6 +152,45 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.wrap {
+  width:100%;
+  height: 100px;
+  margin: 0 auto;
+  z-index: 10;
+  position: relative;
+}
+
+.gradientText{
+  z-index: 10;
+  padding-top: 100px;
+  background: linear-gradient(to right, #F903E2,#1C38E4,#08D808);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite, bounce1 2s linear infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:#FF00E4;
+  display:block;
+  transition: color .2s ease-in-out;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.gradientText:hover{
+  color:rgba(0,0,0,0);
+}
+
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
+}
+
+@keyframes bounce1 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
 }
 
 @media (max-width: 600px) {
