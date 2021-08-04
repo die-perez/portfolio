@@ -34,6 +34,17 @@
   flex-grow: 1;
 }
 
+.iconHolder {
+  background-image: url("../public/images/girl-icon.png");
+  background-size: 85px 85px;
+  background-position: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 20;
+}
+
 .header {
   font-family: 'Staatliches', cursive;
   height: 100%;
@@ -88,7 +99,7 @@
   background-color: black;
   color: white;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   padding-top: 300px;
   text-align: center;
 }
@@ -101,6 +112,7 @@
 
 .me {
   border-radius: 50%;
+  /* padding-top: 50px; */
 }
 
 .sectionLook {
@@ -158,12 +170,12 @@
   width:100%;
   height: 100px;
   margin: 0 auto;
-  z-index: 10;
+  z-index: 9;
   position: relative;
 }
 
 .gradientText{
-  z-index: 10;
+  z-index: 9;
   padding-top: 100px;
   background: linear-gradient(to right, #F903E2,#1C38E4,#08D808);
   background-size: 200% 200%;
