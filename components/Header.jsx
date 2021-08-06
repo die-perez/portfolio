@@ -1,20 +1,20 @@
 import Image from 'next/image'
-import background from '../public/images/art2.jpeg'
 import styles from '../styles/Home.module.css'
+import flowers from '../public/images/flowers.jpg'
 
 export const Header = () => {
     return (
-        <section className={styles.header}>
-        <div className={styles.bgWrap}>
-          <Image 
+        <section id="header" className={styles.header}>
+        {/* <div className={styles.bgWrap}> */}
+          {/* <Image 
             alt="background"
-            src={background}
+            src={flowers}
             layout="fill"
             objectFit="cover"
             objectPosition="center"
             quality={100}
-          />
-        </div>
+          /> */}
+        {/* </div> */}
           <div className={styles.headerInfo}>
             <h1 className={styles.name}>
               Andie Perez
