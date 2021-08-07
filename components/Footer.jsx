@@ -54,7 +54,7 @@ export const Footer = () => {
             </div>
             <div data-tip="download resume" className="tooltip tooltip-primary" >
                 <a className={styles.icon}
-                    href="/public/files/resume.pdf" download
+                    href="https://andieperez.s3.us-west-1.amazonaws.com/Andie+Perez+-+Resume.pdf" download
                 >
                     <Image 
                         src={Resume} 
