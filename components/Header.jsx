@@ -1,6 +1,4 @@
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import flowers from '../public/images/flowers.jpg'
 
 export const Header = () => {
     return (

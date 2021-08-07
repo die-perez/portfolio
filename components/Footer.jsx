@@ -39,7 +39,7 @@ export const Footer = () => {
                 </a>
             </div>
             <div data-tip="email" className="tooltip tooltip-primary">
-                <a  className={styles.icon}
+                <a className={styles.icon}
                     href="mailto:pzandie@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -53,10 +53,8 @@ export const Footer = () => {
                 </a>
             </div>
             <div data-tip="download resume" className="tooltip tooltip-primary" >
-                <a  className={styles.icon}
-                    href="mailto:pzandie@gmail.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                <a className={styles.icon}
+                    href="/public/files/resume.pdf" download
                 >
                     <Image 
                         src={Resume} 
