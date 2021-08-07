@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 export const Navbar = () => {
     return (
-        <div className="navbar sticky top-0 shadow-lg bg-neutral text-neutral-content rounded-box min-w-full" style={{backgroundColor: "black"}}>
-            <div className="px-2 mx-2 navbar-start">
+        <div className="navbar sticky top-0 shadow-lg bg-neutral text-neutral-content rounded-box min-w-full z-10" style={{backgroundColor: "black"}}>
+            <div className="px-2 mx-auto navbar-start ">
                 <div className={styles.iconHolder}></div>
             </div> 
             <div className="hidden px-2 mx-2 navbar-center lg:flex">
@@ -25,7 +25,7 @@ export const Navbar = () => {
                     </Link>
                 </div>
             </div> 
-            <div className="navbar-end"></div>
+            <div className="navbar-end" id="hide"></div>
         </div>
     )
 }

@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 
-
-
 .container {
   /* min-height: 100vh; */
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,7 +44,8 @@
 
 .header {
   font-family: 'Staatliches', cursive;
-  background-image: url("../public/images/flowers.jpg");
+  background-image: url("../public/images/rose.jpeg");
+  /* background-image: url("../public/images/arc.jpeg"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,6 +63,7 @@
   width: 45vw;
   height: 350px;
   margin: 35% auto 50px;
+  opacity: 0.9;
 }
 
 .name {
@@ -70,7 +71,7 @@
   line-height: 1.15;
   font-size: 5rem;
   letter-spacing: 2px;
-  padding-top: 15%;
+  padding-top: 100px;
 }
 
 .title {
@@ -92,7 +93,7 @@
   height: 100%;
   /* padding-top: 25px; */
   text-align: center;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .aboutHeading {
@@ -106,10 +107,14 @@
   border-radius: 50%;
 }
 
+.aboutPar {
+  margin-top: 60px;
+}
+
 .sectionLook {
   padding: 140px;
   border: 2px white solid;
-  margin: 100px;
+  margin: 100px 100px 5px;
 }
 
 .stackHolder {
@@ -121,32 +126,44 @@
   margin: 0 auto;
 }
 
-
 .wrap {
   width:100%;
   height: 100px;
   margin: 0 auto;
-  z-index: 9;
+  /* z-index: 9; */
   position: relative;
 }
 
 .gradientText{
-  z-index: 9;
+  /* z-index: 9; */
   padding-top: 100px;
-  background: linear-gradient(to right, #F903E2,#1C38E4,#08D808);
+  background: linear-gradient(to right, #F903E2,#08D808);
   background-size: 100% 100%;
   animation: rainbow 2s ease-in-out infinite, bounce1 2s linear infinite;
   background-clip: text;
   -webkit-background-clip:text;
-  color:#ff6fca;
+  color:white;
   display:block;
   transition: color .2s ease-in-out;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .gradientText:hover{
   color:rgba(0,0,0,0);
+}
+
+.space {
+  height: 50px;
+  width: auto;
+  background-color: black;
+}
+
+.contactHeading {
+  font-family: 'Staatliches', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 @keyframes rainbow { 
@@ -161,9 +178,77 @@
   100% { transform: translateY(0); }
 }
 
-@media (max-width: 600px) {
-  .grid {
+@media (max-width: 768px) {
+  /* .grid {
     width: 100%;
     flex-direction: column;
+  } */
+
+  .container {
+    width: 100vw;
+  }
+
+  .headerInfo {
+    /* position: relative;
+    z-index: 2; */
+    text-align: center;
+    background-color: black;
+    width: 300px;
+    height: 350px;
+    margin: 45% auto 50px;
+    opacity: 0.9;
+    padding: 20px;
+  }
+
+  .name {
+    padding-top: 50px;
+  }
+
+  .aboutHeading{
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .aboutPar {
+    margin-top: 25px;
+  }
+
+  .sectionLook {
+    padding: 40px;
+    margin: 30px 30px 5px;
+  }
+  
+  .about {
+    width: 100vw;
+    text-align: center;
+  }
+
+ .wrap,
+ .gradientText {
+   display: none;
+ }
+
+  .projectTitle {
+    font-size: 25px;
+  }
+
+  .space {
+    height: 40px;
+    width: auto;
+    background-color: black;
+  }
+
+  .contactHeading {
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 250px;
+    padding-bottom: 45px;
   }
 }

@@ -8,10 +8,9 @@ import Resume from '../public/images/resume.png'
 export const Footer = () => {
     return (
     <footer id="contact" className={styles.footer}>
-        <div><h2 className="card-title">Contact Me</h2></div>
-        <div className={styles.contactLinks}>
-            <html data-theme="cyberpunk">   
-            <div data-tip="github.com/die-perez" className="tooltip tooltip-primary" data-theme="cyberpunk">
+        <div><h2 className={styles.contactHeading}>Contact</h2></div>
+        <div className={styles.contactLinks}> 
+            <div data-tip="github.com/die-perez" className="tooltip tooltip-primary">
                 <a className={styles.icon}
                     href="https://github.com/die-perez"
                     target="_blank"
@@ -62,12 +61,11 @@ export const Footer = () => {
                     <Image 
                         src={Resume} 
                         alt="Resume Logo"
-                        width={28}
+                        width={24}
                         height={30}
                     />
                 </a>
             </div>
-            </html>
         </div>
     </footer>
     )

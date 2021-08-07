@@ -22,7 +22,7 @@ export const Header = () => {
             <h3 className={styles.title}>Software Engineer</h3>
           </div>  
           <div className={styles.wrap}>
-            <h1 className={styles.gradientText}>▼</h1>
+            <h1 className={styles.gradientText}><a href="#about">▼</a></h1>
           </div>
         </section>
     )
