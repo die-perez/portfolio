@@ -111,7 +111,8 @@
   border-radius: 50%;
 }
 
-.aboutPar {
+.aboutPar,
+.aboutMe {
   margin-top: 60px;
 }
 
