@@ -8,7 +8,7 @@ export const About = () => {
             <div styles={{backgroundColor: "black"}} className={styles.sectionLook}>
                 <h1 className={styles.aboutHeading}>About</h1>
                 <Image src={Me} alt="Andie Perez" width= {250} height={250} className={styles.me} />
-                <p className={styles.aboutPar}>I am a Full-Stack Engineer with an eye for design and an appetite for problem-solving. Beautiful websites pique my interest, which is why I strive to learn new skills that help with workflow and creativity every day.<br />Find me dying my hair or playing with my pups Viggo the Carpathian & Laszlo Cravensworth when I am away from my computer!
+                <p className={styles.aboutMe}>Hola!<br />My name is Andrea, but you can call me Andie. <br />I am a Full-Stack Engineer with an eye for design and an appetite for problem-solving. Beautiful websites pique my interest, which is why I strive to learn new skills for workflow and creativity every day.<br />Find me dying my hair or playing with my pups Viggo the Carpathian & Laszlo Cravensworth when away from my computer.
                 </p> 
             </div>
         </section>

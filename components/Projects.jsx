@@ -54,7 +54,7 @@ export const Projects = () => {
                                 <a href="https://best-vamp.herokuapp.com/"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="btn btn-outline btn-primary">Check it out
+                                    className="btn btn-outline btn-primary">Visit
                                 </a>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ export const Projects = () => {
                                 <a href="https://admiring-spence-c2dab0.netlify.app/"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="btn btn-outline btn-primary">Check it out
+                                    className="btn btn-outline btn-primary">Visit
                                 </a>
                             </div>
                         </div>
