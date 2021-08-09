@@ -64,6 +64,10 @@
   height: 350px;
   margin: 35% auto 50px;
   opacity: 0.9;
+  animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; 
 }
 
 .name {
@@ -166,17 +170,7 @@
   margin-bottom: 20px;
 }
 
-@keyframes rainbow { 
-  0%{background-position:left}
-  50%{background-position:right}
-  100%{background-position:left}
-}
-
-@keyframes bounce1 {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-30px); }
-  100% { transform: translateY(0); }
-}
+/* MOBILE */
 
 @media (max-width: 768px) {
   /* .grid {
@@ -252,3 +246,88 @@
     padding-bottom: 45px;
   }
 }
+
+/* MEDIUM SCREENS */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .headerInfo {
+    /* position: relative;
+    z-index: 2; */
+    width: 400px;
+    margin: 40% auto 10px;
+  }
+}
+
+/* LARGE SCREENS */
+
+@media (min-width: 1025px) {
+  .headerInfo {
+    /* position: relative;
+    z-index: 2; */
+    width: 500px;
+    margin: 30vh auto 10px;
+    opacity: 0.9;
+  }
+
+  .aboutPar{
+    width: 450px;
+    margin: 50px auto;
+  }
+
+  .projectImg {
+    width: 500px;
+  }
+
+  .projectInfo {
+    margin: 0 auto;
+  }
+}
+
+/* KEYFRAMES */
+
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
+}
+
+@keyframes bounce1 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
