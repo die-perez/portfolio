@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 export const Stack = () => {
     return (
         <section className={styles.about}>
-            <div styles={{backgroundColor: "black"}} className={styles.sectionLook}>
+            <div styles={{backgroundColor: "black"}} className={styles.sectionLook} data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-delay='50' data-aos-duration="800">
                 <h1 className={styles.aboutHeading}>Stack</h1>
                 <div className={styles.stackHolder}>
                     <div className="card-body">
