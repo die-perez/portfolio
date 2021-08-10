@@ -12,7 +12,7 @@ export const Projects = () => {
                     {/* <div className="container flex-wrap"> */}
                     <div className={styles.projectInfo}>
                     <div className="card text-center shadow-2xl">
-                        <figure className="px-10 pt-10 pl-0">
+                        <figure className="px-10 pt-10 pl-3">
                             <Image src={burnwitch}
                             alt="hangman style game" 
                             layout="responsive"
