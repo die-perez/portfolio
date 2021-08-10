@@ -7,12 +7,12 @@ import viberant from '../public/images/viberant.png'
 export const Projects = () => {
     return (
         <section id="projects" className={styles.about}>
-            <div styles={{backgroundColor: "black"}} className={styles.sectionLook}>
+            <div styles={{backgroundColor: "black"}} className={styles.sectionLook} data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-delay='50' data-aos-duration="800">
                 <h1 className={styles.aboutHeading}>Projects</h1>
                     {/* <div className="container flex-wrap"> */}
                     <div className={styles.projectInfo}>
-                    <div className="card text-center shadow-2xl ">
-                        <figure className="px-10 pt-10">
+                    <div className="card text-center shadow-2xl">
+                        <figure className="px-10 pt-10 pl-0">
                             <Image src={burnwitch}
                             alt="hangman style game" 
                             layout="responsive"

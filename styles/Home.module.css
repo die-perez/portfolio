@@ -64,10 +64,10 @@
   height: 350px;
   margin: 35% auto 50px;
   opacity: 0.9;
-  animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; 
+  animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; 
 }
 
 .name {
@@ -111,7 +111,8 @@
   border-radius: 50%;
 }
 
-.aboutPar {
+.aboutPar,
+.aboutMe {
   margin-top: 60px;
 }
 

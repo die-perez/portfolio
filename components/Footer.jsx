@@ -9,7 +9,7 @@ export const Footer = () => {
     return (
     <footer id="contact" className={styles.footer}>
         <div><h2 className={styles.contactHeading}>Contact</h2></div>
-        <div className={styles.contactLinks}> 
+        <div className={styles.contactLinks} > 
             <div data-tip="github.com/die-perez" className="tooltip tooltip-primary">
                 <a className={styles.icon}
                     href="https://github.com/die-perez"
