@@ -214,7 +214,8 @@
   }
 
   .aboutMe {
-    padding: 40px;
+    padding: 0px 30px 30px;
+    margin-top: 30px;
   }
 
   .sectionLook {
