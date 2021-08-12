@@ -67,7 +67,7 @@ export const Projects = () => {
                             />
                         </figure> 
                         <div className="card-body">
-                            <h2 className="card-title">viberant</h2>  
+                            <h2 className="card-title" id="viberant">viberant</h2>  
                             <p className={styles.aboutPar}>Full-stack web application mimicking Craiglsist’s personal section for a younger generation. Allows users to post something to do and specify how many people can attend. Users can then join eachother’s events. User authentication utilizing jwt tokens, mongoDB back-end with relational schemas connecting users and events. React front-end that breaks down several components and imports them where required. </p>
                             <div className="justify-center card-actions">
                                 <a href="https://github.com/die-perez/mern-auth-client-1"
