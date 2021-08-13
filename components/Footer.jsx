@@ -23,6 +23,7 @@ export const Footer = () => {
                         height={30}
                     />
                 </a>
+                <small className={styles.small}>github.com/die-perez</small>
             </div>
             <div data-tip="linkedin.com/in/dieperez-se/" className="tooltip tooltip-primary" >
                 <a className={styles.icon}
@@ -37,8 +38,9 @@ export const Footer = () => {
                         height={30}
                     />
                 </a>
+                <small className={styles.small}>linkedin.com/in/dieperez-se/</small>
             </div>
-            <div data-tip="email" className="tooltip tooltip-primary">
+            <div data-tip="email: pzandie@gmail.com" className="tooltip tooltip-primary">
                 <a className={styles.icon}
                     href="mailto:pzandie@gmail.com"
                     target="_blank"
@@ -51,6 +53,7 @@ export const Footer = () => {
                         height={32}
                     />
                 </a>
+                <small className={styles.small}>pzandie@gmail.com</small>
             </div>
             <div data-tip="download resume" className="tooltip tooltip-primary" >
                 <a className={styles.icon}
@@ -63,6 +66,7 @@ export const Footer = () => {
                         height={30}
                     />
                 </a>
+                <small className={styles.small}>download resume</small>
             </div>
         </div>
     </footer>

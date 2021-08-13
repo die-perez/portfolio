@@ -171,6 +171,12 @@
   margin-bottom: 20px;
 }
 
+.small {
+  display: block;
+  margin: 0px 5px;
+  font-size: 9px;
+}
+
 /* MOBILE */
 
 @media (max-width: 768px) {
@@ -250,6 +256,10 @@
     height: 250px;
     padding-bottom: 45px;
   }
+
+  .small {
+    display: none;
+  }
 }
 
 /* MEDIUM SCREENS */
@@ -285,6 +295,12 @@
 
   .projectInfo {
     margin: 0 auto;
+  }
+  .small {
+    display: block;
+    margin: 0px 10px;
+    font-size: 10px;
+    color: gray;
   }
 }
 
