@@ -12,13 +12,13 @@ export const Projects = () => {
                     {/* <div className="container flex-wrap"> */}
                     <div className={styles.projectInfo}>
                     <div className="card text-center shadow-2xl">
-                        <figure className="px-10 pt-10 pl-3">
+                        <figure className="px-10 pt-10 mx-auto max-w-xl">
                             <Image src={burnwitch}
                             alt="hangman style game" 
                             layout="responsive"
                             />
                         </figure> 
-                        <div className="card-body">
+                        <div className="card-body flex">
                             <h2 className="card-title">burnwitch</h2>  
                             <p className={styles.aboutPar}>Front-end based game built with vanilla Javascript, CSS and HTML. It’s hangman with a dark twist, where the user can save a witch from burning by guessing the word correctly! Fully styled with music and sound effects to enhance user experience.</p>
                             <div className="justify-center card-actions">
@@ -36,7 +36,7 @@ export const Projects = () => {
                         </div>
                     </div> 
                     <div className="card text-center shadow-2xl flex-1">
-                        <figure className="px-10 pt-10">
+                        <figure className="px-10 pt-10 max-w-xl mx-auto">
                             <Image src={vamp}
                             alt="hangman style game" 
                             layout="responsive"
@@ -60,7 +60,7 @@ export const Projects = () => {
                         </div>
                     </div> 
                     <div className="card text-center shadow-2xl flex-1">
-                        <figure className="px-10 pt-10">
+                        <figure className="px-10 pt-10 max-w-xl mx-auto">
                             <Image src={viberant}
                             alt="hangman style game" 
                             layout="responsive"
